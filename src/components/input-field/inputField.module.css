@@ -1,0 +1,35 @@
+.container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+.inputField {
+    height: 74px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(244, 244, 244, 0.1);
+    box-sizing: border-box;
+    box-shadow: 12px 26px 50px rgba(90, 108, 234, 0.07);
+    border-radius: 15px;
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 16px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.8);
+    outline: none;
+}
+.iconSend {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    transition: .3s linear;
+}
+.iconSend:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
